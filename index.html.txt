@@ -1,0 +1,39 @@
+<html>
+2. <head>
+3. <title>Optical Character Recognition with Microsoft Azure Machine
+Learning</title>
+4. <style>
+5. #imgView {
+6. border: 1px solid #FFFFFF;
+7. }
+8.
+9. #btnClear {
+10. background: gray;
+11. width: 280px;
+12. color: white;
+13. font-size: 2em;
+14. }
+15.
+16. #btnSend {
+17. background: gray;
+18. width: 280px;
+19. color: white;
+20. font-size: 2em;
+21. }
+22. </style>
+23. </head>
+24.
+25. <body>
+26. <canvas id="imgView" width="280" height="280">
+27. Unfortunately, your browser does not supported.
+28. </canvas>
+29.
+30. <p><button id="btnClear">Clear</button></p>
+31. <p><button id="btnSend">Send</button></p>
+32.
+33. <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></scri
+pt>
+34. <script src="./odr.js"></script>
+35. </body>
+36. </html>
